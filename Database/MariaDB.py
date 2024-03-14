@@ -18,15 +18,3 @@ def users():
     cur.execute("SELECT * FROM mysql.alldata")
     rv = cur.fetchall()
     return str(rv)
-
-# class alldata(mysql.Model):
-#     __tablename__ = 'alldata'
-
-#     userID = mysql.Column(mysql.varchar(255),primary_key=True)
-#     FileName = mysql.Column(mysql.varchar(255))
-#     FilePath = mysql.Column(mysql.varchar(255))
-#     Label = mysql.Column(mysql.varchar(10))
-#     name = mysql.Column(mysql.datetime)
-#     fildSize = mysql.Column(mysql.int)
-#     Dimensins = mysql.Column(mysql.int)
-#     Format = mysql.Column(mysql.varchar(10))
