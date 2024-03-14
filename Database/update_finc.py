@@ -13,3 +13,13 @@ def update_func(data):
     print("An error occurred",e)
   finally:
     cur.close()
+
+def update_func(data):
+  # 업데이트할 데이터를 딕셔너리 형태로 생성
+  data= {
+    'user_id': 'example_userID',
+    'new_label': 'new_label_value'
+  }
+# 데이터베이스 업데이트 함수 호출
+  update_func(data)
+  return "Record updated seccessfully"
