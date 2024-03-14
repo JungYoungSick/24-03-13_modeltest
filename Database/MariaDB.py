@@ -30,6 +30,3 @@ def users():
 #     fildSize = mysql.Column(mysql.int)
 #     Dimensins = mysql.Column(mysql.int)
 #     Format = mysql.Column(mysql.varchar(10))
-
-if __name__ == '__main__':
-    app.run(port=app.config['MYSQL_PORT']) 
