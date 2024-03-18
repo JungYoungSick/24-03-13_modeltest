@@ -1,3 +1,3 @@
 export default function Home() {
-  return <div>home</div>;
+  return <div className="w-40 h-40 bg-slate-300">공</div>;
 }
